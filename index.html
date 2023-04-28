@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Satin Dreams BA</title>
   </head>
-  <body> <!--Aca para poner una imagen de fondo-->
+  <body background="fondo.png"> <!--Aca para poner una imagen de fondo-->
     <br>
 
     <!--BARRA DE NAVEGACION-->
@@ -65,7 +65,7 @@
         <p>Todos nuestros productos son fabricados con los mejores materiales, para asegurarnos de que sean duraderos y resistentes. Además, nuestros diseños son innovadores y frescos, para que puedas expresar tu estilo personal con cada uno de nuestros productos.</p>
         <p>No dudes en explorar nuestra colección de accesorios y encontrar el producto perfecto para ti. ¡Gracias por confiar en nosotros y esperamos que disfrutes de tu compra!</p>
         <br>
-        <a href="productos.html"><button type="button" class="btn btn-outline-dark">Ver mas Productos</button></a>
+        <a href="productos.html"><button class="btn"> Ver mas Productos </button></a>
         </div>
       </div>
       <br>
@@ -85,22 +85,22 @@
           <div class="col">
             <h6>Fundas</h6>
             <p>Protegen tus dispositivos móviles de posibles golpes, caídas, rayones y otros daños. Además, algunos modelos pueden incluir características adicionales como resistencia al agua y protección antimicrobiana.</p>
-            <a href="fundas.html"><button type="button" class="btn btn-outline-secondary">Fundas</button></a>
+            <a href="fundas.html"><button class="btn"> Fundas </button></a>
             <br>
             <br>
             <h6>Vinchas</h6>
             <p>Mantienen tu cabello en su lugar mientras haces deporte, trabajas o realizas otras actividades. También pueden ser un accesorio de moda que complemente tu outfit y aporte estilo a tu apariencia.</p>
-            <a href="vincha.html"><button type="button" class="btn btn-outline-secondary">Vinchas</button></a>
+            <a href="vincha.html"><button class="btn"> Vinchas </button></a>
             <br>
             <br>
             <h6>Scrunchie</h6>
             <p>Evitan que tu cabello se dañe o se quiebre al realizar peinados y sujetarlo con elásticos tradicionales. Además, pueden ser un accesorio de moda que aporte color y estilo a tu cabello.</p>
-            <a href="scrunchie.html"><button type="button" class="btn btn-outline-secondary">Scrunchie</button></a>
+            <a href="scrunchie.html"><button class="btn"> Scrunchies </button></a>
             <br>
             <br>
             <h6>Antifaz</h6>
             <p>Ayudan a mejorar la calidad del sueño al bloquear la luz y reducir el ruido ambiental. También pueden ser útiles para relajarte y reducir el estrés.</p>
-            <a href="antifaz.html"><button type="button" class="btn btn-outline-secondary">Antifaz</button></a>
+            <a href="antifaz.html"><button class="btn"> Antifaz </button></a>
             <br>
             <br>
           </div>
@@ -171,7 +171,8 @@
         </div>
       </div>
 
-      <!--Lo de las boxes-->
+      <!--Lo de las boxes--> 
+
       <h3 class="text-center">Boxes:</h3>
       <p class="text-center">Los colores de los productos pueden ser seleccionados (dependen del stock)</p>
       <br>
@@ -186,7 +187,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>Box Premium</h5>
                 <p>Que es lo que trae...</p>
-                <a href="#"><button type="button" class="btn btn-outline-info">Tienda Nube</button></a> <!--Para poder comprar esta box-->
+                <a href="#"><button class="btn"> Tienda Nube </button></a> <!--Para poder comprar esta box-->
               </div>
             </div>
             <div class="carousel-item">
@@ -194,7 +195,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>Box Basic</h5>
                 <p>Que es lo que trae...</p>
-                <a href="#"><button type="button" class="btn btn-outline-info">Tienda Nube</button></a> <!--Para poder comprar esta box-->
+                <a href="#"><button class="btn"> Tienda Nube </button></a> <!--Para poder comprar esta box-->
               </div>
             </div>
             <div class="carousel-item">
@@ -202,7 +203,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>Box Premium</h5>
                 <p>Que es lo que trae...</p>
-                <a href="#"><button type="button" class="btn btn-outline-info">Tienda Nube</button></a> <!--Para poder comprar esta box-->
+                <a href="#"><button class="btn"> Tienda Nube </button></a> <!--Para poder comprar esta box-->
               </div>
             </div>
           </div>
@@ -220,7 +221,58 @@
       </div>
     </section>
 
-    
+    <!--FOOTER-->
+
+    <footer>
+
+      <!--Formulario que no est activado-->
+
+      <br>
+      <br>
+      <br>
+      <h4 class="text-center">Formulario de contacto</h4>
+      <p class="text-center">Complete el formulario y nos pondremos en contacto via mail</p>
+      <div class="row align-items-center">
+        <div class="col">
+      </div>
+      <div class="col"> 
+        <div class="contact-form">
+          <span class="heading">Contactenos</span> <!--Formulario-->
+          <form>
+              <label for="name">Nombre</label>
+              <input type="text" required="">
+              <label for="email">Mail</label>
+              <input type="email" id="email" name="email" required="">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" required=""></textarea>
+              <button type="submit">Enviar</button>
+          </form>
+        </div>  
+      </div>
+      <div class="col">
+      </div>
+
+      <!--Redes Sociales-->
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row align-items-center">
+        <div class="col">
+            
+        </div>
+        <div class="col">
+          <br>
+          <p>REDES SOCIALES</p>
+          <br>
+        </div>
+        <div class="col">
+            
+        </div>
+      </div>
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
