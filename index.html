@@ -7,100 +7,220 @@
     <link rel="stylesheet" href="style.css">
     <title>Satin Dreams BA</title>
   </head>
-  <body background="fondo.png">
+  <body> <!--Aca para poner una imagen de fondo-->
     <br>
-    <nav> <!--Menu para navegar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">Satin Dreams BA</a> <!--Aca puede ir el LOGO-->
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a> <!--INICIO-->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a> <!--PRODUCTOS-->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://articulo.mercadolibre.com.ar/MLA-1364597317-antifaz-de-saten-de-seda-_JM?variation=177515144063#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=87c4c221-4d29-4a79-b98b-a5dc5b34c331">Mercado Libre</a> <!--MERCADO LIBRE-->
-                    <!--se tiene que abrir en otra paginas-->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a> <!--CONTACTO-->
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+
+    <!--BARRA DE NAVEGACION-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Para cambiar el color voy aca-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Satin Dreams BA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a> <!--Inicio-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mercado libre</a> <!--Mercado Libre-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tienda Nube</a> <!--Tienda Nube-->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a> <!--Menu de productos-->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="fundas.html">Fundas</a></li> <!--Fundas-->
+                <li><a class="dropdown-item" href="antifaz.html">Antifaz</a></li> <!--Antifaz-->
+                <li><a class="dropdown-item" href="scrunchie.html">Srunchie</a></li> <!--Scrunchie-->
+                <li><a class="dropdown-item" href="vincha.html">Vinchas</a></li> <!--Vinchas-->
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Tienda Nube</a></li> <!--Tienda nube-->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <br>
+
     <!--MAIN-->
-    <main> <!--Algunas fotos de productos bien generales como par llamar la atencion-->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+
+    <main>
+
+      <!--Alguna foto de un producto con el logo, como para dar una introduccion + texto diciendo lo que hacen-->
+
+      <div class="row align-items-center">
+        <div class="col">
+          <img src="imagen 1.png" alt="" style="height: 800px;width: 800px;">
+        </div>
+        <div class="col">
+          <h1>Satin DreamsBA</h1>
+        <p>Nos complace presentarte nuestra empresa dedicada a la fabricación de productos de alta calidad como fundas, vinchas, scrunchies y antifaces. <br>Sabemos lo importante que es complementar tu estilo con accesorios que te hagan sentir cómodo y seguro, por lo que nos especializamos en crear productos únicos y de alta calidad.</p>
+        <p>En nuestra empresa, nos enfocamos en la satisfacción del cliente y por eso trabajamos arduamente para asegurarnos de que nuestros productos cumplan con tus expectativas y necesidades. <br>Ya sea que estés buscando una funda de teléfono única, una vincha para el cabello elegante, un scrunchie para lucir un peinado divertido o un antifaz para disfrutar de un descanso reparador, estamos seguros de que encontrarás lo que buscas en nuestra tienda.</p>
+        <p>Todos nuestros productos son fabricados con los mejores materiales, para asegurarnos de que sean duraderos y resistentes. Además, nuestros diseños son innovadores y frescos, para que puedas expresar tu estilo personal con cada uno de nuestros productos.</p>
+        <p>No dudes en explorar nuestra colección de accesorios y encontrar el producto perfecto para ti. ¡Gracias por confiar en nosotros y esperamos que disfrutes de tu compra!</p>
+        <br>
+        <a href="productos.html"><button type="button" class="btn btn-outline-dark">Ver mas Productos</button></a>
+        </div>
+      </div>
+      <br>
+    </main>
+
+    <!--SECTION-->
+
+    <section>
+
+      <!--La idea es poner como unos beneficios en general-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center">
+            <h6>Los productos que ofrecemos, como fundas, vinchas, scrunchies y antifaces, tienen diferentes beneficios según su uso. Aquí te presento algunos de ellos:</h6>
+          </div>
+          <div class="col">
+            <h6>Fundas</h6>
+            <p>Protegen tus dispositivos móviles de posibles golpes, caídas, rayones y otros daños. Además, algunos modelos pueden incluir características adicionales como resistencia al agua y protección antimicrobiana.</p>
+            <a href="fundas.html"><button type="button" class="btn btn-outline-secondary">Fundas</button></a>
+            <br>
+            <br>
+            <h6>Vinchas</h6>
+            <p>Mantienen tu cabello en su lugar mientras haces deporte, trabajas o realizas otras actividades. También pueden ser un accesorio de moda que complemente tu outfit y aporte estilo a tu apariencia.</p>
+            <a href="vincha.html"><button type="button" class="btn btn-outline-secondary">Vinchas</button></a>
+            <br>
+            <br>
+            <h6>Scrunchie</h6>
+            <p>Evitan que tu cabello se dañe o se quiebre al realizar peinados y sujetarlo con elásticos tradicionales. Además, pueden ser un accesorio de moda que aporte color y estilo a tu cabello.</p>
+            <a href="scrunchie.html"><button type="button" class="btn btn-outline-secondary">Scrunchie</button></a>
+            <br>
+            <br>
+            <h6>Antifaz</h6>
+            <p>Ayudan a mejorar la calidad del sueño al bloquear la luz y reducir el ruido ambiental. También pueden ser útiles para relajarte y reducir el estrés.</p>
+            <a href="antifaz.html"><button type="button" class="btn btn-outline-secondary">Antifaz</button></a>
+            <br>
+            <br>
+          </div>
+        </div>
+
+        <!--Cuidados de la fundas-->
+
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <br>
+            <h6>Tips para el cuidado de las fundas</h6>
+            <p><br>1. Al dormir recuerde sacarse tosos los accesorios que puedan enganchar la tela de su funda</p>
+            <p><br>2. Recomendamos lavar a manos y con jabon para prendas delicadas, si desea lavarla a maquina, utilice una bolsa de red</p>
+            <p><br>3. Planchar a temperatuda minima</p>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <!--Carrusel para mostrar los colores disponiles en general, en cada producto va a volver a estar especificado-->
+
+      <br>
+      <h3 class="text-center">Colores Disponibles:</h3>
+      <div class="row align-items-center">
+        <div class="col">
+        </div>
+        <div class="col">
+          <div id="carouselExampleControls" class="carousel slide centroo" data-bs-ride="carousel"> <!--Carousell de los colores-->
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="diapo 1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Ejemplo Diapo 1</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="diapo 2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+              <div class="carousel-item active">
+                <img src="color1.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="diapo 3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="color2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="color3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="color4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="color5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="color6.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="color7.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="color8.png" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </main>
-    <br>
-    <!--SECTION-->
-    <section class="text-center">
-        <h2>Aca va informacion</h2>
-        <img src="Beneficios.png" alt="">
-    </section>
-    <br>
-    <!--FOOTER-->
-    <footer>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <p>instagram</p>
-                </div>
-                <div class="col">
-                    <p>hola</p>
-                </div>
-                <div class="col">
-                    <p>hola</p>
-                </div>
-            </div>
+          <p>Colores: <br>Blanco-Natural-Rosa Claro-Gris Perla-Chocolate-Celeste-Rosa-Negro</p>
+          <br>
         </div>
-    </footer>
+        <div class="col">
+        </div>
+      </div>
+
+      <!--Lo de las boxes-->
+      <h3 class="text-center">Boxes:</h3>
+      <p class="text-center">Los colores de los productos pueden ser seleccionados (dependen del stock)</p>
+      <br>
+      <div class="row align-items-center">
+        <div class="col">
+      </div>
+      <div class="col">
+        <div id="carouselExampleCaptions" class="carousel slide centroo" data-bs-ride="carousel"> <!--Carrousel de los BOX-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagen_para_copletar.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Box Premium</h5>
+                <p>Que es lo que trae...</p>
+                <a href="#"><button type="button" class="btn btn-outline-info">Tienda Nube</button></a> <!--Para poder comprar esta box-->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagen_para_copletar.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Box Basic</h5>
+                <p>Que es lo que trae...</p>
+                <a href="#"><button type="button" class="btn btn-outline-info">Tienda Nube</button></a> <!--Para poder comprar esta box-->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagen_para_copletar.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Box Premium</h5>
+                <p>Que es lo que trae...</p>
+                <a href="#"><button type="button" class="btn btn-outline-info">Tienda Nube</button></a> <!--Para poder comprar esta box-->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col">
+      </div>
+    </section>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

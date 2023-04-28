@@ -1,4 +1,8 @@
-
-footer{
-    background-color: rgb(249, 233, 249);
+main{
+    padding: 90px;
+}
+.centroo{
+    width: 1000px;
+    height: 100px;
+    display: inline;
 }
