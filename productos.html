@@ -7,85 +7,154 @@
     <link rel="stylesheet" href="style.css">
     <title>Satin Dreams BA</title>
   </head>
-  <body background="fondo.png">
-    <nav> <!--Menu para navegar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="main.html">Satin Dreams BA</a> <!--Aca puede ir el LOGO-->
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="main.html">Inicio</a> <!--INICIO-->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a> <!--PRODUCTOS-->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://articulo.mercadolibre.com.ar/MLA-1364597317-antifaz-de-saten-de-seda-_JM?variation=177515144063#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=87c4c221-4d29-4a79-b98b-a5dc5b34c331">Mercado Libre</a> <!--MERCADO LIBRE-->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a> <!--CONTACTO-->
-                  </li>
-                </ul>
+  <body background="fondo.png"> <!--Aca para poner una imagen de fondo-->
+    <br>
+
+    <!--BARRA DE NAVEGACION-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Para cambiar el color voy aca-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Satin Dreams BA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a> <!--Inicio-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mercado libre</a> <!--Mercado Libre-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tienda Nube</a> <!--Tienda Nube-->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a> <!--Menu de productos-->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="fundas.html">Fundas</a></li> <!--Fundas-->
+                <li><a class="dropdown-item" href="antifaz.html">Antifaz</a></li> <!--Antifaz-->
+                <li><a class="dropdown-item" href="scrunchie.html">Srunchie</a></li> <!--Scrunchie-->
+                <li><a class="dropdown-item" href="vincha.html">Vinchas</a></li> <!--Vinchas-->
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Tienda Nube</a></li> <!--Tienda nube-->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+
+    <!--MAIN-->
+    
+    <main id="cartas">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
               </div>
-            </div>
-          </nav>
-          <!--MAIN-->
-          <main id="main_color"> <!--Poner los productos. dsp cada producto lleva a una pagina en especial-->
-            <div class="container">
-                <div class="row">
-                  <div class="col"> <!--Fundas-->
-                    <div class="card" style="width: 18rem;">
-                        <img src="prod 1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Fundas</h5>
-                          <p class="card-text">Fundas de satén de seda echas a mano con tela importada de excelente calidad, con múltiples beneficios para tu pelo y tu piel, potencia tu rutina de skincare, disminuye el frizz, evita el quiebre del cabello, las pestañas y las cejas, es fresca y suave al tacto y no deja marcas en el rostro.</p>
-                          <a href="fundas.html" class="btn btn-light">Ver mas productos</a>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col"> <!--Antifaz-->
-                    <div class="card" style="width: 18rem;">
-                        <img src="prod 2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Antifaz</h5>
-                          <p class="card-text">Hermoso antifaz de satén de seda, confeccionado con materiales de primera calidad que aseguran un máximo cuidado para la delicada piel de alrededor de tus ojos y evita el quiebre de tus pestañas, no hay otro en el mercado de esta calidad y con estas terminaciones, un lujo para usar y regalar. No dudes en consultar por este u otro producto de nuestra línea.</p>
-                          <a href="antifaz.html" class="btn btn-light">Ver mas productos</a>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col"> <!--Scrunchie-->
-                    <div class="card" style="width: 18rem;">
-                        <img src="prod 3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Scrunchie</h5>
-                          <p class="card-text">- evitan el quiebre del pelo<br>
-                            - son super cómodas y lindas
-                            </p>
-                          <a href="scrunchie.html" class="btn btn-light">Ver mas productos</a>
-                        </div>
-                  </div>
-                  </div>
+              <div class="col-md-8"> <!--Fundas-->
+                <div class="card-body">
+                  <h5 class="card-title">Fundas</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="fundas.html"><button class="btn"> Ver mas > </button></a>
                 </div>
               </div>
-              <br>
-              <div class="container">
-                <div class="row">
-                    <div class="col"> <!--Vincha-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="prod 3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Vincha Para Skincare</h5>
-                              <p class="card-text">Vincha super suave de polar soft para realizar rutina de skincare o maquillaje, no quiebra ni arranca el pelo, el set viene con 2 pads demaquillantes reutilizables de 8 cm de diámetro. Cuida tu piel y tu planeta.</p>
-                              <a href="vincha.html" class="btn btn-light">Ver mas productos</a>
-                            </div>
-                  </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4"> <!--Vinchas-->
+                <img src="..." class="img-fluid rounded-start" alt="...">
               </div>
-          </main>
-    </nav>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Vinchas</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="vincha.html"><button class="btn"> Ver mas > </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8"> <!--Srunchies-->
+                <div class="card-body">
+                  <h5 class="card-title">Scrunchies</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="scrunchie.html"><button class="btn"> Ver mas > </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8"> <!--Antifaz-->
+                <div class="card-body">
+                  <h5 class="card-title">Antifaz</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="antifaz.html"><button class="btn"> Ver mas > </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <h3 class="text-center">Tienda nube</h3> <!--Tienda nube-->
+          <p class="text-center"> <a href="#"><button class="btn"> Tienda nube > </button></a> </p>
+        </div>
+        <div class="col"></div>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+
+      <!--Formulario que no est activado-->
+
+      <br>
+      <br>
+      <br>
+      <h4 class="text-center">Formulario de contacto</h4>
+      <p class="text-center">Complete el formulario y nos pondremos en contacto via mail</p>
+      <div class="row align-items-center">
+        <div class="col">
+      </div>
+      <div class="col"> 
+        <div class="contact-form">
+          <span class="heading">Contactenos</span> <!--Formulario-->
+          <form>
+              <label for="name">Nombre</label>
+              <input type="text" required="">
+              <label for="email">Mail</label>
+              <input type="email" id="email" name="email" required="">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" required=""></textarea>
+              <button type="submit">Enviar</button>
+          </form>
+        </div>  
+      </div>
+      <div class="col"> <!--Redes sociales-->
+        <br>
+          <a href="#"><img src="Logos/Mail.png" alt="Mail" style="height: 40px;width: 40px;">Mail</a>
+          <br>
+          <br>
+          <br>
+          <a href="#"><img src="Logos/intagram.png" alt="Instagram" style="height: 40px;width: 40px;">Instagram</a>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
